@@ -21,39 +21,6 @@ opencv_python==4.7.0
 timm==0.6.12
 torchvision==0.14.1
 ```
-# 代码结构
-```text
-├── code
-│   ├── train			# 不同模型的训练
-│	│	├── 4-mvss
-│	│	├── 1-eff3-768-ygh.py
-│	│	├── 2-eff3-512-lj.py
-│	│	├── 3-eff7-512.py
-│	│	├── 5-eff4-512.py
-│	│	├── 6-den-512.py
-│	│	├── 7-rex-512.py
-│   ├── test
-│   ├── run.sh			# 推理脚本
-│   ├── train.sh
-├── data    
-│   ├── session1            # 初赛数据集
-├── expand_data    
-│   ├── paper            # 扩充数据集
-├── user_data    
-│   ├── model data
-│	│	├── 1mo
-│	│	├── 2ef3
-│	│	├── 3ef7
-│	│	├── 4mv
-│	│	├── 5ef4
-│	│	├── 6den
-│	│	├── 7rex 
-├── prediction_result   
-├── README.md
-├── requirements.txt        # python环境依赖
-
-```
-
 
 # 比赛策略
 
