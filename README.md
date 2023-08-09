@@ -1,4 +1,4 @@
-# ICDAR 2023: 篡改文本检测 赛道一 排名15名方案介绍
+# 阿里云天池ICDAR 2023: 篡改文本检测 15名方案介绍
 # 赛题介绍
 - 赛题地址：[ICDAR 2023: 篡改文本检测]([ICDAR 2023 DTT in Images 1: Text Manipulation Classification_算法大赛_天池大赛-阿里云天池 (aliyun.com)](https://tianchi.aliyun.com/competition/entrance/532048/introduction))
 - 赛题任务：利用模拟电子商务场景的图像篡改文本（TTI），检测文本是否被篡改
