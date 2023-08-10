@@ -29,7 +29,7 @@ torchvision==0.14.1
 - 训练阶段采用5折交叉验证，并且在512阶段及之后增加额外数据进行训练。损失函数用FOCAL-loss，优化器ADAM，带有重启的余弦退火策略。
 - 此外使用了efficientnet-b7、densenet169、resnext50、mvssnet网络直接加载IMAGENET预训练权重，在512大小源数据加新数据训练训练策略同上。
 - 其中MVSSNET网络训练参考https://github.com/dddb11/MVSS，全部数据用来训练，使用ADAM优化器，STEPLR策略等。
-- 最后，对这些网络结果加权求和，此时初赛分数可达83.83。
+- 最后，对这些网络结果stacking融合，此时初赛分数可达83.83。
 
 
 # 引用
